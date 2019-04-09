@@ -6,15 +6,15 @@ import {
 	YAxis,
 	CartesianGrid,
 	Tooltip,
-	Legend,
+	Legend
 } from "recharts";
 
 class BarGraph extends Component {
 	render() {
 		return (
 			<BarChart
-				width={600}
-				height={320}
+				width={window.innerWidth * 0.6}
+				height={350}
 				data={this.props.info}
 				margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
 			>

@@ -7,7 +7,7 @@ import update from "immutability-helper";
 
 class WeatherInfo extends Component {
 	state = {
-		cityInfo: [],
+		cityInfo: []
 	};
 
 	updateState = (id, data) => {
@@ -15,12 +15,12 @@ class WeatherInfo extends Component {
 		if (this.state.cityInfo.length < 3) {
 			// If we have less than 3 cities inserted, push this one
 			updatedCityInfo = update(this.state.cityInfo, {
-				$push: [data],
+				$push: [data]
 			});
 		} else {
 			updatedCityInfo = update(this.state.cityInfo, {
 				// if we have 3, replace this one in the array
-				$splice: [[id, 1, data]],
+				$splice: [[id, 1, data]]
 			});
 		}
 

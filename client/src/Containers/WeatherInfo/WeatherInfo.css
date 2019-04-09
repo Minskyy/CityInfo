@@ -1,4 +1,6 @@
 .WeatherInfo {
+	height: 95vh;
+
 	width: 100%;
 	background-color: #a8d0e6;
 	display: flex;
@@ -7,7 +9,7 @@
 	box-shadow: 0 2px 1px #bc986a;
 	margin: auto;
 	background-image: url(./clouds.jpg);
-	background-size: 1600px;
+	background-size: 150%;
 	padding: 10px 0;
 }
 .CityInputs {
@@ -20,6 +22,7 @@
 
 .InfoTable {
 	width: 70%;
+
 	margin: 20px auto;
 	border: 1px solid #eee;
 	box-shadow: 1px 1px 1px 1px #24305e;
@@ -31,7 +34,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	width: 70%;
+	width: 60%;
 	margin: auto;
 	height: 320px;
 	text-align: center;
