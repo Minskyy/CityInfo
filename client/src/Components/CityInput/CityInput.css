@@ -1,0 +1,46 @@
+.CityInput {
+	width: 30%;
+	margin: 20px auto;
+	border: 1px solid #eee;
+	box-shadow: 1px 1px 1px 1px #24305e;
+	text-align: center;
+	background-color: #f8e9a1;
+}
+
+.CityInput p {
+	color: #374785;
+	font-size: 15pt;
+}
+
+.CityInput input,
+.CityInput textarea {
+	display: block;
+	width: 70%;
+	padding: 6px 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	outline: none;
+	font: inherit;
+	margin: auto;
+}
+
+.CityInput input:focus {
+	outline: none;
+	background-color: #a8d0e6;
+}
+
+.CityInput button {
+	margin: 5px 0;
+	padding: 10px;
+	font: inherit;
+	border: 1px solid #374785;
+	background-color: #374785;
+	color: white;
+	cursor: pointer;
+}
+
+.CityInput button:hover,
+.CityInput button:active {
+	color: white;
+	background-color: #659dbd;
+}

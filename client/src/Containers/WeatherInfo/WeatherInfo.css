@@ -1,0 +1,38 @@
+.WeatherInfo {
+	width: 100%;
+	background-color: #a8d0e6;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	box-shadow: 0 2px 1px #bc986a;
+	margin: auto;
+	background-image: url(./clouds.jpg);
+	background-size: 1600px;
+	padding: 10px 0;
+}
+.CityInputs {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 70%;
+	margin: auto;
+}
+
+.InfoTable {
+	width: 70%;
+	margin: 20px auto;
+	border: 1px solid #eee;
+	box-shadow: 1px 1px 1px 1px #24305e;
+	text-align: center;
+	background-color: #f8e9a1;
+}
+
+.BarGraph {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 70%;
+	margin: auto;
+	height: 320px;
+	text-align: center;
+}
