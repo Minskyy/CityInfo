@@ -24,3 +24,5 @@ to install the required dependencies, and
 ### `npm start`
 
 Will make the browser open in localhost:3000
+
+The requests will be logged in the file api/access.log
