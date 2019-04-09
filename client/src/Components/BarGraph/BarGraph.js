@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+﻿import React, { Component } from "react";
 import {
 	BarChart,
 	Bar,
@@ -14,7 +14,7 @@ class BarGraph extends Component {
 		return (
 			<BarChart
 				width={window.innerWidth * 0.6}
-				height={350}
+				height={320}
 				data={this.props.info}
 				margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
 			>
