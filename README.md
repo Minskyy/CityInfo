@@ -4,11 +4,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the api directory, run:
 
+
+### `npm install`
+
+to install the required dependencies, then
+
 ### `npm start`
 
 To start up the server.
 
+
 Then, in the client directory, 
+
+
+### `npm install`
+
+to install the required dependencies, and
 
 ### `npm start`
 
